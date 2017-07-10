@@ -1,0 +1,25 @@
+{
+  "name": "mockapi",
+  "version": "1.0.0",
+  "description": "For API mock",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony ./mock/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuanyuanMaggie/mockAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuanyuanMaggie/mockAPI/issues"
+  },
+  "homepage": "https://github.com/YuanyuanMaggie/mockAPI#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1"
+  }
+}
